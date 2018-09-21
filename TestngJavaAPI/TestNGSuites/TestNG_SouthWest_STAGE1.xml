@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="2" verbose="1" name="SouthWest API Suite" annotations="JDK" parallel="tests">
+<parameter name="environment" value="Stage1"/>
+
+	<test name="SouthWest Suite">
+		<classes>
+			<class name="com.testsuite.southwests.Searches.SouthWestSearchProducts"/>
+			<class name="com.testsuite.southwests.Products.SouthWestGetAvailability"/>
+			<class name="com.testsuite.southwests.Products.SouthWestGetHotelDetails"/>
+			<class name="com.testsuite.southwests.Products.SouthWestGetPriceMatch"/>
+			<class name="com.testsuite.southwests.Products.SouthWestGetProductDetails"/>
+			<class name="com.testsuite.southwests.Products.SouthWestGetProductOptions"/>
+			<class name="com.testsuite.southwests.Products.SouthWestGetProductReviews"/>
+			<class name="com.testsuite.southwests.Booking.SouthWestCreateShoppingCart"/>
+			<class name="com.testsuite.southwests.Booking.SouthWestAddBookingOptions"/>
+			<class name="com.testsuite.southwests.Booking.SouthWestBookingQuestions"/>
+			<class name="com.testsuite.southwests.Booking.SouthWestBookingAnswers"/>
+			<class name="com.testsuite.southwests.Booking.SouthWestBookerDetails"/>
+			<class name="com.testsuite.southwests.Booking.SouthWestTravelerDetails"/>
+			<class name="com.testsuite.southwests.Booking.SouthWestValidateCart"/>
+			<class name="com.testsuite.southwests.Booking.SouthWestPaymentandBooking"/>
+			<class name="com.testsuite.southwests.Booking.SouthWestCancelBooking"/>
+			<class name="com.testsuite.southwests.Booking.SouthWestGetSingleBooking"/>
+			<class name="com.testsuite.southwests.Booking.SouthwestRemoveItemsFromcart"/>
+			<class name="com.testsuite.southwests.Booking.SouthWestVoucherGetVoucherDetails"/>
+			<class name="com.testsuite.southwests.Booking.SouthWestBookingHistory"/>
+		</classes>
+	</test>
+</suite>

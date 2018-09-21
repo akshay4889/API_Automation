@@ -1,0 +1,9 @@
+.metadata/*
+.recommenders/*
+RemoteSystemsTempFiles/*
+TestngJavaAPI/.metadata/*
+TestngJavaAPI/build/*
+TestngJavaAPI/bin/*
+TestngJavaAPI/ConfigFiles/TestDependency.properties
+TestngJavaAPI/test-output/*
+TestngJavaAPI/Automation Reports

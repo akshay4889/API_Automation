@@ -1,0 +1,11 @@
+{
+  "bookerRequest": {
+"countryISOCode":"null",
+    "dateOfBirth": "1986-12-20",
+    "email": "test@placepass.com",
+    "firstName": "Chiranjeevi",
+    "lastName": "Alti",
+    "phoneNumber": "+923432076890",
+    "title": "Mr."
+  }
+}

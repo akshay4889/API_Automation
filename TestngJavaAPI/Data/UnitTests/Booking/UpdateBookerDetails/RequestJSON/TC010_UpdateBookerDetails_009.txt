@@ -1,0 +1,10 @@
+{
+  "bookerRequest": {
+    "dateOfBirth": "1986-12-20",
+    "email": "test@placepass.com",
+    "firstName": "Chiranjeevi",
+    "lastName": "Alti",
+    "phoneNumber": "+8801748343556",
+    "title": "Mr."
+  }
+}
